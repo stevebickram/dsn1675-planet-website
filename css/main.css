@@ -33,6 +33,7 @@ img {
 div {
     background-color: #ccc;
     overflow: hidden;
+    /* overflow hidden maintains the space within this div, telling it to always float around the objects within it. */
 }
 
 .title {
