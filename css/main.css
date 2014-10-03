@@ -37,6 +37,12 @@ img {
 .header{
     overflow: hidden;
 }
+
+.intro{
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
 .title {
     text-align: center;
     margin:0;
