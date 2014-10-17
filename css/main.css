@@ -9,6 +9,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 
+ 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -20,6 +21,24 @@ html {
   box-sizing: inherit;
 }
  
+    /* we want to make our font sizes bigger for the larger screens so in our media queries for 60 em, 90 em, amd 120 em, we want to make our font sizes 110%, 120%, and 130% */
+@media only screen and (min-width: 60em) {
+    html { 
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    html { 
+        font-size: 120%;
+    }
+}
+@media only screen and (min-width: 120em) {
+    html { 
+        font-size: 130%;
+    }
+}
+   
 header {
     overflow:hidden;
 }
@@ -67,6 +86,16 @@ img {
     overflow: hidden;
     background-color: #e2e2e2;
 }
+
+.discovery {
+    background-color: #e2e2e2;
+}
+.footer{
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+
 @media only screen and (min-width: 25em) {
     
     .nav { 
@@ -76,22 +105,55 @@ img {
     .nav li {
         display: inline-block;
     }
+    .copyright {
+        text-align: center;
+    }
 }
     
     
 @media only screen and (min-width: 38em) {
     
-    .title {
+    .copyright {
         text-align:left;
     }
     .nav { 
-        text-align:left;
+        text-align:right;
     }  
 }
    
+@media only screen and (min-width: 60em) {
+ 
+    .nav {
+        text-align: right;
+    }
+    .copyright {
+        text-align: left;
+    }
+    dl {
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+    dt {
+        clear: left;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 8em;
+    }
+    .moontext {
+        padding-top:1em;
+    }
+}
 
 
 
+
+
+
+
+
+/* we want to make our font sizes bigger for the larger screens so in our media queries for 60 em, 90 em, amd 120 em, we want to make our font sizes 110%, 120%, and 130% */
 /*
  .unit {
     float: left;
