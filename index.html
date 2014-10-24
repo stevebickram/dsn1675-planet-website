@@ -9,10 +9,16 @@
         <link href="css/type.css" rel="stylesheet">
 </head>
 
-    <body>
-    <div class="header grid grid-middle island-half">
+<body>
+    
+    <ul class="skip-links">
+        <li><a href="">Jump to main content</a></li>
+        <li><a href="">Jump to navigation</a></li>
+    </ul> <!-- this allows users to jump conent using the keyboard to desired sections which we denote with id's ( for example id="main") --> 
+
+    <div role="banner" class="header grid grid-middle island-half">
         <h1 class="title peta unit unit-s-1 unit-m-1-3">Venus</h1>
-        <nav class="unit unit-s-1 unit-m-2-3">
+        <nav id="navigation" role="navigation" class="unit unit-s-1 unit-m-2-3">
             <ul class="nav mega push-none">
                 <li class="gutter-half"><a href="index.html">Planet</a></li>
                 <li class="gutter-half"><a href="moons.html">Moons</a></li>
@@ -21,48 +27,49 @@
         </nav>
     </div>
     
-    <div class="intro">
-    <p class="peta pad-top pad-bottom">Venus, the second planet in the Solar System</p>
-    </div>
-    
-    <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 pad-b">
-            <img src="images/Venus.jpg">
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 gutter">
-            <h2 class="exa">Venus</h2>
-            <p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition. However, it has also been shown to be radically different from Earth in other respects.</p>
-        </div>
-    </div>
-    
-    <div class="grid pad-top infostyle">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-            <figure>
-              <img src="images/yellowvenus.jpg">
-                <figcaption class="milli island">Global radar view of the surface from Magellan radar imaging between 1990 and 1994 </figcaption>
-            </figure>
+    <main id="main" role="main">
+        <div class="intro">
+            <p class="peta pad-top pad-bottom">Venus, the second planet in the Solar System</p>
         </div>
     
-        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
-            <figure>
-                <img src="images/crater.jpg">
-                <figcaption class="milli island">Impact craters on the surface of Venus (image reconstructed from radar data</figcaption>
-            </figure>
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 pad-b">
+                <img src="images/Venus.jpg">
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 gutter">
+                <h2 class="exa">Venus</h2>
+                <p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition. However, it has also been shown to be radically different from Earth in other respects.</p>
+            </div>
         </div>
+    
+        <div class="grid pad-top infostyle">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+                <figure>
+                <img src="images/yellowvenus.jpg">
+                    <figcaption class="milli island">Global radar view of the surface from Magellan radar imaging between 1990 and 1994 </figcaption>
+                </figure>
+            </div>
+    
+            <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                <figure>
+                    <img src="images/crater.jpg">
+                    <figcaption class="milli island">Impact craters on the surface of Venus (image reconstructed from radar data</figcaption>
+                </figure>
+            </div>
     
 
-        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
-            <figure>
-                <img src="images/moon.jpg">
-                <figcaption class="milli island">Maat Mons with a vertical exaggeration of 22.5</figcaption>
-            </figure>
+            <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                <figure>
+                    <img src="images/moon.jpg">
+                    <figcaption class="milli island">Maat Mons with a vertical exaggeration of 22.5</figcaption>
+                </figure>
+            </div>
         </div>
-    </div>
 
  
-    <div class="grid island stats"> 
-        <div class="unit unit-s-1 unit-m-1-2">
-            <h2 class="giga">Orbital Characteristics</h2>  
+        <div class="grid island stats"> 
+            <div class="unit unit-s-1 unit-m-1-2">
+                <h2 class="giga">Orbital Characteristics</h2>  
                 <dl>
                     <dt class="milli">Aphelion</dt>
                     <dd class="mega">108 939 000 km</dd>   
@@ -76,29 +83,29 @@
                     <dt class="milli">Average orbital speed</dt>
                     <dd class="mega">35.02 km/s</dd>
                 </dl> 
-        </div>
+            </div>
         
-        <div class="unit unit-s-1 unit-m-1-2">
-            <h2 class="giga">Physical Characteristics</h2>
-            <dl>
-                <dt class="milli">Mean Radius</dt>
-                <dd class="mega">6051.8±1.0 km</dd>   
+            <div class="unit unit-s-1 unit-m-1-2">
+                <h2 class="giga">Physical Characteristics</h2>
+                <dl>
+                    <dt class="milli">Mean Radius</dt>
+                    <dd class="mega">6051.8±1.0 km</dd>   
     
-                <dt class="milli">Mass</dt>
-                <dd class="mega">4.8676×10<sup>24</sup> kg</dd>
+                    <dt class="milli">Mass</dt>
+                    <dd class="mega">4.8676×10<sup>24</sup> kg</dd>
         
-                <dt class="milli">Surface Gravity</dt>
-                <dd class="mega">8.87 m/s2</dd>
+                    <dt class="milli">Surface Gravity</dt>
+                    <dd class="mega">8.87 m/s2</dd>
         
-                <dt class="milli">Axial tilt</dt>
-                <dd class="mega">177.36<sup>o</sup></dd>
-            </dl>
-        </div> 
-    </div>
-     
+                    <dt class="milli">Axial tilt</dt>
+                    <dd class="mega">177.36<sup>o</sup></dd>
+                </dl>
+            </div> 
+        </div>
+    </main> 
     <footer class="grid island footer">
     
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+        <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
             <p class="copyright">©2014 Venus Planetary Consortium</p>
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">    
@@ -110,6 +117,6 @@
                 </ul>
             </nav>
         </div>
-</footer>
+    </footer>
 </body>
 </html>

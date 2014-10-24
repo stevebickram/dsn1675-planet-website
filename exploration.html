@@ -9,9 +9,14 @@
     <link href="css/type.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header grid grid-middle island-half">
+      
+    <ul class="skip-links">
+        <li><a href="">Jump to main content</a></li>
+        <li><a href="">Jump to navigation</a></li>
+    </ul>
+    <div role="banner" class="header grid grid-middle island-half">
         <h1 class="title peta unit unit-s-1 unit-m-1-3">Venus</h1>
-        <nav class="unit unit-s-1 unit-m-2-3">
+        <nav id="navigation" role="navigation" class="unit unit-s-1 unit-m-2-3">
             <ul class="nav mega push-none">
                 <li class="gutter-half"><a href="index.html">Planet</a></li>
                 <li class="gutter-half"><a href="moons.html">Moons</a></li>
@@ -19,11 +24,12 @@
             </ul>
         </nav>
     </div>
-    
-    <div class="intro">
-    <h1 class="peta pad-top pad-bottom">Exploration</h1>
-    </div>
-    
+        
+    <main id="main" role="main">
+        <div class="intro">
+            <h1 class="peta pad-top pad-bottom">Exploration</h1>
+        </div>
+    </main>
     <footer class="grid island header">
     
         <div class="unit unit-m-1-2 unit-l-1-3">
@@ -38,4 +44,4 @@
                 </ul>
             </nav>
         </div>
-</footer>
+    </footer>
