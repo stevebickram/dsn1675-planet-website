@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Venus Moons</title>
+  <title>Venus Exploration</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -28,6 +28,58 @@
     <main id="main" role="main">
         <div class="intro">
             <h1 class="peta pad-top pad-bottom">Exploration</h1>
+        </div>
+        
+        <form action="face.html" method="post">
+
+        <div class="form-body island">
+            <div class="intro">
+                <h1 class="title">Join Venus's Exploration Team </h1>
+                <p class="form-body pad-top"> Are you interested in exploring Venus with a group of extremely talented people? <i>Sign up below!</i></p>
+            </div>
+    
+            <form>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input class="field" id="name">
+                </div>
+                <div>
+                    <label for="e-mail">E-mail</label>
+                    <input class="field" type="e-mail" id="e-mail">
+                </div>    
+                <div>
+                    <label for="number">Age</label>
+                    <input class="field" type="number" id="number">
+                </div>
+    
+                <fieldset>
+                    <p class="awesome-title"><i>Your level of awesomeness:</i></p>
+                    <span class="radio">
+                        <input type="radio" id="meh" name="awesomeness">
+                        <label class="awesome" for="meh...">Meh...</label>
+                    </span>
+            
+                    <span class="radio">
+                        <input type="radio" id="Pretty good" name="awesomeness">
+                        <label class="awesome" for="pretty good">Pretty Good</label>
+                    </span>
+              
+                    <span class="radio">
+                        <input type="radio" id="Mucho" name="awesomeness">
+                        <label class="awesome" for="Mucho">Mucho!</label>
+                    </span>
+                </fieldset>
+                <div>
+                    <label for="explaination">Explain why you deserve to go:</label>
+                    <textarea class="explanation" id="explaination" id="text"></textarea>
+                </div>
+        
+          
+                <div class="submit">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
         </div>
     </main>
     <footer class="grid island header">
