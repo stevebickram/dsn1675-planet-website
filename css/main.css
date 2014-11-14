@@ -90,8 +90,12 @@ img {
 }
 
 .intro{
-    background-color: #e2e2e2;
+    background-image: url(../images/night_sky.jpg);
     text-align: center;
+}
+
+h2 {
+    color: white;
 }
 
 .title {
